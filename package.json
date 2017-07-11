@@ -4,7 +4,7 @@
   "description": "sf-express api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/bugall/sf-express#readme",
   "dependencies": {
+    "chai": "^4.0.2",
+    "lodash": "^4.17.4",
+    "mocha": "^3.4.2",
     "query-string": "^4.3.4",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "xml2json": "^0.11.0"
   }
 }
